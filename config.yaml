@@ -1,0 +1,24 @@
+cookie:
+  expiry_days: 30
+  key: st_123
+  name: streamlit_auth_cookie
+credentials:
+  usernames:
+    admin:
+      email: admin@example.com
+      name: Administrator
+      password: $2b$12$9wskLHycKK6J93SuRIB8DO2hltH98.CVUsMIbOG0FzJ8lt08rUMAK
+    jsmith:
+      email: john.smith@example.com
+      name: John Smith
+      password: $2b$12$st9YJgIfPSm3IBgt7p62n.8S6l.GdRkl4D4P0HMvGoQhPj6tci.3u
+    mjones:
+      email: mary.jones@example.com
+      name: Mary Jones
+      password: $2b$12$p9Nm.iL87ZwimbFIXk8f3.RH8WptsD2jiURizb7S2tibf//SGEWl.
+    test:
+      email: test@example.com
+      name: test
+      password: $2b$12$3J7n5BLzQ1qsa3q7Kuvrxe5Y/Sbbrw.Oh728pLBSvicJPE5JQQcEe
+pre_authorized:
+- admin@example.com

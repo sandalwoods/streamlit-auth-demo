@@ -1,0 +1,24 @@
+# config.yaml
+credentials:
+  usernames:
+    admin:
+      email: admin@example.com
+      name: Administrator
+      password: $2b$12$.eII63n5O4R533DiLFbeOuEWh7i5U0qpaz1aYOPNjgpag95lAJVIu
+    jsmith:
+      email: john.smith@example.com
+      name: John Smith
+      password: $2b$12$OysgIFGQKyKS5pQoBHged.IpuPhjHKsCh03W934FfRL7JrD6bj1jW
+    mjones:
+      email: mary.jones@example.com
+      name: Mary Jones
+      password: $2b$12$nLcqXUb1/Jr/NOETDQiPCuvY4Lv5RTQKWYMryYZZyhTVj/tW2Q2za
+
+cookie:
+  expiry_days: 30
+  key: st_1234  # Must be string
+  name: st_1234
+
+preauthorized:
+  emails:
+  - admin@example.com
